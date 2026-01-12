@@ -823,6 +823,10 @@ ul {
   gap: 10px;
 }
 
+.footer__input--email{
+border: none;
+}
+
 .footer__socials {
   display: flex;
   flex-direction: column; 
