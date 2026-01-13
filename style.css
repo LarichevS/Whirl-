@@ -240,6 +240,23 @@ ul {
   margin-top: 10px;
   padding-left: 45px; 
   padding: 2px 60px 10px 39px;
+
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.item--active .item__text {
+  display: block;
+  opacity: 1;
+}
+/* это на будущее для стрелочки */
+.line--list__arrow {
+  transition: transform 0.3s ease;
+}
+
+.item--active .line--list__arrow {
+  transform: rotate(180deg);
 }
 
 .line-list li:not(.item--active) {
