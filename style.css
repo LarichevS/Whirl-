@@ -46,54 +46,13 @@ ul {
   gap: 30px;
 }
 
-.button__rihgt {
+.header__menu {
   margin-left: auto;
   display: flex;
   align-items: center;
   justify-content: flex-end; 
   gap: 35px;
-  
-}
 
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  
-  font-weight: 200;
-
-  width: 170px;
-  height: 40px;
-
-  background-color: #0070A0;
-  color: #FFFFFF;
-
-  letter-spacing: 0.2px;
-  transition: opacity 0.7s;
-
-  border: none;     
-  outline: none; 
-  font-size: 16px;
-  font-family: Inter;
-}
-
-.btn:hover{
-  opacity: 0.8;
-}
-
-.button_reg {
-  color: #0070A0;
-  
-  width: 50px;
-  height: 25px;
-  
-  font-size: 15px;
-  letter-spacing: 0.2px;
-  transition: opacity 0.5s;
-}
-
-.button_reg:hover {
-  opacity: 0.5;
 }
 
 
@@ -138,18 +97,11 @@ ul {
   height: auto;
 }
 
-.welcome__button {
+.welcome__actions {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 30px;
-}
-
-.button__learn {
-  color: #0070A0;
-  font-size: 17px;
-  display: flex;
-  gap:5px;
 }
 
 .trust__companies {
@@ -428,22 +380,6 @@ ul {
   color: #FFFFFF;
 }
 
-.button__tracking {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  width: 170px;
-  height: 65px;
-  font-weight: 200;
-  font-size: 17px;
-  border: none;     
-  outline: none; 
-  background-color: #0070A0;
-  color: #FFFFFF;
-  font-family: Inter;
-  letter-spacing: 0.2px;
-}
-
 .title__list--right {
   width: 500px;
   height: 390px;
@@ -552,17 +488,6 @@ ul {
   font-size: 42px;
   letter-spacing: 0.2px;
 
-}
-
-.all__post--button {
-  width: 240px;
-  height: 30px;
-  background-color: transparent;
-  border: none;
-  color: #0070A0;
-  font-family: Inter;
-  font-size: 17px;
-  letter-spacing: 0.2px;
 }
 
 .blog__cards {
@@ -824,7 +749,9 @@ ul {
 }
 
 .footer__input--email{
-border: none;
+  border: none;
+  width: 210px;
+  height: 30px;
 }
 
 .footer__socials {
