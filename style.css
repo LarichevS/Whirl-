@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-html, body {
-
-}
 
 body {
   margin: 0;
@@ -16,12 +13,12 @@ a {
 }
 
 ul {
-  list-style: none;  
+  list-style: none;
 
 }
 
-.container{
-  max-width: 1160px;  
+.container {
+  max-width: 1160px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -32,31 +29,31 @@ ul {
   padding: 25px 0;
 }
 
-.header--wrapper{
+.header--wrapper {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 50px;
 }
- 
+
 .logo__left {
   display: flex;
-  justify-content:flex-start;
-  align-items: center; 
+  justify-content: flex-start;
+  align-items: center;
   gap: 10px;
 }
 
 .header__list {
   display: flex;
   gap: 30px;
-font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .header__menu {
   margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   gap: 35px;
 
 }
@@ -67,7 +64,7 @@ font-family: "Inter", sans-serif;
 
 
 
-.welcome--wrapper{
+.welcome--wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,14 +83,14 @@ font-family: "Inter", sans-serif;
   color: #1F1F1F;
   margin: 0;
   width: 450px;
-} 
+}
 
 .welcome__desc {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 0.2px;
-  color:#1F1F1F ;
+  color: #1F1F1F;
   margin: 30px 0;
   width: 350px;
   font-family: "Inter", sans-serif;
@@ -123,9 +120,9 @@ font-family: "Inter", sans-serif;
 .welcome__companies {
   display: flex;
   align-items: center;
-  justify-content: center; 
-  gap: 85px;               
-  padding: 10px 20px;     
+  justify-content: center;
+  gap: 85px;
+  padding: 10px 20px;
 }
 
 
@@ -134,7 +131,7 @@ font-family: "Inter", sans-serif;
 
 
 
-.info--cards__wrapper{
+.info--cards__wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -196,8 +193,8 @@ font-family: "Inter", sans-serif;
   gap: 40px;
 }
 
-.company--info{
-  background-color:#F7F9FA ;
+.company--info {
+  background-color: #F7F9FA;
   width: 100%;
 }
 
@@ -248,7 +245,7 @@ font-family: "Inter", sans-serif;
   color: #1F1F1F;
   line-height: 24px;
   margin-top: 10px;
-  padding-left: 45px; 
+  padding-left: 45px;
   padding: 2px 60px 10px 39px;
 
   display: none;
@@ -260,6 +257,7 @@ font-family: "Inter", sans-serif;
   display: block;
   opacity: 1;
 }
+
 /* это на будущее для стрелочки */
 .line--list__arrow {
   transition: transform 0.3s ease;
@@ -301,12 +299,12 @@ font-family: "Inter", sans-serif;
 
 .about--company__cards {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 100px 0 50px 0;
   flex-wrap: wrap;
 }
 
-.about--card__non  {
+.about--card__non {
   margin-top: 60px;
   width: 235px;
   height: 220px;
@@ -346,7 +344,7 @@ font-family: "Inter", sans-serif;
 
 
 
-.tracking  {
+.tracking {
   background-color: #0070A0;
   width: 100%;
 }
@@ -382,7 +380,7 @@ font-family: "Inter", sans-serif;
   line-height: 27px;
   letter-spacing: 0.2px;
   color: #FFFFFF;
- 
+
   width: 480px;
   height: 80px;
 }
@@ -404,7 +402,7 @@ font-family: "Inter", sans-serif;
   font-family: Inter;
   font-size: 16px;
   letter-spacing: 0.8px;
-  
+
   color: #FFFFFF;
 }
 
@@ -414,15 +412,15 @@ font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap:20px;
+  gap: 20px;
 }
 
 
 
 /* task automated */
 
-.tasks--automation__wrapper{
- padding: 100px 0 0 0;
+.tasks--automation__wrapper {
+  padding: 100px 0 0 0;
 }
 
 .tasks--automation__title {
@@ -495,8 +493,8 @@ font-family: "Inter", sans-serif;
 
 
 
-.blog{
-  background-color:#F7F9FA;
+.blog {
+  background-color: #F7F9FA;
   margin-top: 130px;
   height: auto;
   min-height: 750px;
@@ -507,7 +505,7 @@ font-family: "Inter", sans-serif;
   padding: 50px 0 0 0;
 }
 
-.title__all--post{
+.title__all--post {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -527,10 +525,10 @@ font-family: "Inter", sans-serif;
   gap: 47px;
 }
 
-.blog__cards--img{
+.blog__cards--img {
   width: 100%;
   height: auto;
-  
+
 }
 
 .blog__card--phone {
@@ -561,7 +559,7 @@ font-family: "Inter", sans-serif;
   font-size: 12px;
   letter-spacing: 0.4px;
   padding: 6px 12px;
-  background-color:#E6F7FF;
+  background-color: #E6F7FF;
   margin: 0 0 0 20px;
   margin-top: 10px
 }
@@ -692,7 +690,7 @@ font-family: "Inter", sans-serif;
 }
 
 .icon {
-  width: 21px;  
+  width: 21px;
   height: 21px;
   flex-shrink: 0;
   display: inline-block;
@@ -715,14 +713,14 @@ font-family: "Inter", sans-serif;
   grid-template-areas: creator nav;
 }
 
-.footer__creator--text{
+.footer__creator--text {
   font-family: Inter;
   font-size: 14px;
   letter-spacing: 0.2px;
   margin: 5px 0 0 0;
 }
 
-.footer__creator--link{
+.footer__creator--link {
   color: #0070A0;
 }
 
@@ -730,8 +728,8 @@ font-family: "Inter", sans-serif;
   padding: 0 0 15px 0;
 }
 
-.footer__list a{
-  color:#626A72 ;
+.footer__list a {
+  color: #626A72;
   font-family: Inter;
   font-weight: 400;
   font-size: 13px;
@@ -739,8 +737,8 @@ font-family: "Inter", sans-serif;
   letter-spacing: 0.2px;
 }
 
-.footer__list--heading{
- 
+.footer__list--heading {
+  display: block;
   margin-bottom: 15px;
   font-family: Inter;
   font-size: 15px;
@@ -756,19 +754,16 @@ font-family: "Inter", sans-serif;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.footer__inner--list {
- 
-}
-
-.footer__list--title{
+.footer__list--title {
   padding-bottom: 16px;
+  
 }
 
-.footer__list--item  {
+.footer__list--item {
   margin-bottom: 10px;
 }
 
-.footer__list--text{
+.footer__list--text {
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
@@ -777,25 +772,21 @@ font-family: "Inter", sans-serif;
   padding: 0 0 10px 0;
 }
 
-.footer__list--email{
+.footer__list--email {
   display: flex;
-  align-items: flex-end; 
+  align-items: flex-end;
 }
 
-.footer__img--line {
-
-}
-
-.footer__input--email{
+.footer__input--email {
   border: none;
-  padding: 0 0 0 30px;  
+  padding: 0 0 0 30px;
   height: 30px;
 }
 
 .footer__socials {
   display: flex;
-  flex-direction: column; 
-  gap: 10px; 
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer__divider-img {
