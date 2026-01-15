@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+html, body {
+
+}
 
 body {
   margin: 0;
@@ -29,7 +32,7 @@ ul {
   padding: 25px 0;
 }
 
-.header .container{
+.header--wrapper{
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -64,7 +67,7 @@ font-family: "Inter", sans-serif;
 
 
 
-.welcome .container {
+.welcome--wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,12 +134,12 @@ font-family: "Inter", sans-serif;
 
 
 
-.info--cards .container {
+.info--cards__wrapper{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 160px;
+  padding: 160px 0 160px 0;
 }
 
 .info--cards__lightning {
@@ -186,7 +189,7 @@ font-family: "Inter", sans-serif;
 
 
 
-.company--info .container {
+.company--wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -195,6 +198,7 @@ font-family: "Inter", sans-serif;
 
 .company--info{
   background-color:#F7F9FA ;
+  width: 100%;
 }
 
 .title--linelist {
@@ -298,23 +302,23 @@ font-family: "Inter", sans-serif;
 .about--company__cards {
   display: flex;
   justify-content:space-between;
-  gap: 30px;
   padding: 100px 0 50px 0;
+  flex-wrap: wrap;
 }
 
 .about--card__non  {
   margin-top: 60px;
-  width: 300px;
+  width: 235px;
   height: 220px;
 }
 
 .about--card__loupe {
-  width: 300px;
+  width: 230px;
   height: 220px;
 }
 
 .about--card__pc {
-  width: 300px;
+  width: 235px;
   height: 220px;
 
 }
@@ -344,9 +348,10 @@ font-family: "Inter", sans-serif;
 
 .tracking  {
   background-color: #0070A0;
+  width: 100%;
 }
 
-.tracking .container {
+.tracking--wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -416,14 +421,8 @@ font-family: "Inter", sans-serif;
 
 /* task automated */
 
-
-
-.tasks--automation .container {
-  margin-top: 130px;
-}
-
-.container .tasks__cards {
-  display: flex;
+.tasks--automation__wrapper{
+ padding: 100px 0 0 0;
 }
 
 .tasks--automation__title {
@@ -448,6 +447,10 @@ font-family: "Inter", sans-serif;
 
 .tasks__cards {
   gap: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   padding: 35px 0 0 0;
 }
 
@@ -495,10 +498,12 @@ font-family: "Inter", sans-serif;
 .blog{
   background-color:#F7F9FA;
   margin-top: 130px;
-  height: 750px;
+  height: auto;
+  min-height: 750px;
+  width: 100%;
 }
 
-.blog .container {
+.blog--wrapper {
   padding: 50px 0 0 0;
 }
 
@@ -518,13 +523,14 @@ font-family: "Inter", sans-serif;
 
 .blog__cards {
   display: flex;
-  gap: 48px;
+  flex-wrap: wrap;
+  gap: 47px;
 }
 
 .blog__cards--img{
   width: 100%;
   height: auto;
-  display: block;
+  
 }
 
 .blog__card--phone {
@@ -642,8 +648,9 @@ font-family: "Inter", sans-serif;
 
 .get--started {
   background-color: #E6F7FF;
-  width: 92%;
-  height: 300px;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -702,7 +709,7 @@ font-family: "Inter", sans-serif;
   padding: 130px 0 30px 0;
 }
 
-.footer .container {
+.footer--wrapper {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-areas: creator nav;
@@ -733,7 +740,7 @@ font-family: "Inter", sans-serif;
 }
 
 .footer__list--heading{
-  display: block;
+ 
   margin-bottom: 15px;
   font-family: Inter;
   font-size: 15px;
@@ -823,3 +830,5 @@ font-family: "Inter", sans-serif;
   height: 22px;
 }
 
+
+/* адаптация под мобилку  */
