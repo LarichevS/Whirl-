@@ -206,10 +206,19 @@ ul {
 
 .company--info__title {
   font-family: Fraunces;
-  font-size: 44px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
   margin: 0;
+  line-height: 40px;
 }
+
+.company--info__title--big {
+  font-size: 42px;
+}
+
+.company--info__title--small {
+  font-size: 39px;
+}
+
 
 .line-list {
   list-style: none;
@@ -223,9 +232,12 @@ ul {
 }
 
 .line-list li {
-  border-top: 1px solid #C2CDD8;
   border-bottom: 1px solid #C2CDD8;
   padding: 12px 0;
+}
+
+.line-list li:first-child {
+  border-top: 1px solid #C2CDD8;
 }
 
 .item__row {
@@ -273,7 +285,7 @@ ul {
 }
 
 .company--info__img {
-  min-width: 500px;
+  min-width: 480px;
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -664,7 +676,7 @@ ul {
 
 
 .footer {
-  padding: 130px 0 30px 0;
+  padding: 130px 0 0 0;
 }
 
 .footer--wrapper {
@@ -715,7 +727,7 @@ ul {
 }
 
 .footer__list--title {
-  padding-bottom: 16px;
+  padding-bottom: 64px;
 
 }
 
@@ -725,7 +737,6 @@ ul {
 
 .footer__list--text {
   font-family: Inter;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -734,37 +745,47 @@ ul {
 
 .footer__list--email {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #C2CDD8;
+  padding-bottom: 7px;
+}
+
+.footer__list--email .button--icon {
+  padding: 0;
 }
 
 .footer__input--email {
   border: none;
-  padding: 0 0 0 30px;
-  height: 30px;
+  padding: 0 15px;
+  outline: none;
+  flex: 1;
+  font-family: Inter;
+  font-size: 13px;
+  background: transparent;
 }
 
 .footer__socials {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .footer__divider-img {
   width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 36px;
 }
 
 .footer__socials-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 20px 0;
+  padding-bottom: 37px;
 }
 
 .footer__socials--desc {
   font-family: Inter;
   font-size: 13px;
   letter-spacing: 0.2px;
+  margin-bottom: 10px;
 }
 
 .footer__socials--desc span {
@@ -938,7 +959,7 @@ ul {
   .line-list {
     width: 100%;
     font-size: 16px;
-    padding: 0 15px;
+    padding: 15px 15px;
   }
 
   .line-list li {
